@@ -31,11 +31,11 @@
                     @csrf
                     <div class="form-group">
                         <label for="email">Title</label>
-                        <input type="text" class="form-control" id="slug" onkeyup="ChangeToSlug();" value="{{$category->title}}" name="title" placeholder="Enter Title...!">
+                        <input type="text" class="form-control" id="slug" onkeyup="ChangeToSlug();" value="{{$category->title}}" name="title" placeholder="Enter sitle...!">
                     </div>
                     <div class="form-group">
                         <label for="email">Slug</label>
-                        <input type="text" class="form-control" id="convert_slug" value="{{$category->slug}}" name="slug" placeholder="Auto Slug...!">
+                        <input type="text" class="form-control" id="convert_slug" value="{{$category->slug}}" name="slug" placeholder="Auto slug...!">
                     </div>
                     <div class="form-group">
                         <label for="email">Image</label>
@@ -44,7 +44,7 @@
                     </div>
                     <div class="form-group">
                         <label for="pwd">Description</label>
-                        <textarea class="form-control" name="description" placeholder="Enter Desc...!">{{$category->description}}</textarea>
+                        <textarea class="form-control" name="description" placeholder="Enter desc...!">{{$category->description}}</textarea>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlSelect1">Status</label>

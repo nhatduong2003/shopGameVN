@@ -86,12 +86,19 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript">
+    <script src="//cdn.ckeditor.com/4.22.1/full/ckeditor.js"></script>
+    <script>
+        // Replace the <textarea id="editor1"> with a CKEditor 4
+        // instance, using default configuration.
+        CKEDITOR.replace('content_blog');
+        CKEDITOR.replace('desc_blog');
+    </script>
+    <!-- <script type="text/javascript">
         // $(document).ready(function(){
         //     $('#myTable').DataTable();
         // });
         // let table = new DataTable('#myTable');
-    </script>
+    </script> -->
 
     <script type="text/javascript">
         function ChangeToSlug() {

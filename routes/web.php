@@ -5,6 +5,7 @@ use App\Http\Controllers\IndexController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SliderController;
+use App\Http\Controllers\BlogController;
 use Illuminate\Support\Facades\Auth;
 /*
 |--------------------------------------------------------------------------
@@ -29,3 +30,5 @@ Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::resource('/category',CategoryController::class);
 //slider
 Route::resource('/slider',SliderController::class);
+//Blog
+Route::resource('/blog',BlogController::class);

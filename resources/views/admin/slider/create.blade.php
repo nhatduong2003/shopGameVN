@@ -31,7 +31,7 @@
                     @csrf
                     <div class="form-group">
                         <label for="email">Title</label>
-                        <input type="text" class="form-control" name="title" placeholder="Enter Title...!">
+                        <input type="text" class="form-control" name="title" placeholder="Enter title...!">
                     </div>
                     <div class="form-group">
                         <label for="email">Image</label>
@@ -39,7 +39,7 @@
                     </div>
                     <div class="form-group">
                         <label for="pwd">Description</label>
-                        <textarea class="form-control" name="description" placeholder="Enter Desc...!"></textarea>
+                        <textarea class="form-control" name="description" placeholder="Enter desc...!"></textarea>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlSelect1">Status</label>
