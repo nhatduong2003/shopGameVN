@@ -26,7 +26,7 @@
                     {{ session('status') }}
                 </div>
                 @endif
-                <a href="{{route('slider.index')}}" class="btn btn-success">Trang Liệt Kê Slider</a>
+                <a href="{{route('slider.index')}}" class="btn btn-success">Liệt Kê Slider</a>
                 <form action="{{route('slider.store')}}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group">

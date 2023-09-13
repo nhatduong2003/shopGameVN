@@ -8,7 +8,7 @@
 <div class="row justify-content-center">
     <div class="col-md-8">
         <div class="card">
-            <div class="card-header">Thêm Blog Game</div>
+            <div class="card-header">Thêm Blog</div>
 
             @if($errors->any())
             <div class="alert alert-danger">
@@ -26,7 +26,7 @@
                     {{ session('status') }}
                 </div>
                 @endif
-                <a href="{{route('blog.index')}}" class="btn btn-success">Liệt Kê Blog Game</a>
+                <a href="{{route('blog.index')}}" class="btn btn-success">Liệt Kê Blog</a>
                 <form action="{{route('blog.store')}}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group">
@@ -57,7 +57,7 @@
                         </select>
                     </div>
 
-                    <button type="submit" class="btn btn-primary">Thêm Blog</button>
+                    <button type="submit" class="btn btn-primary">Thêm</button>
                 </form>
             </div>
         </div>
